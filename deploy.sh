@@ -16,6 +16,7 @@ vue-cli-service build
 
 git init
 git add -A
+git status
 git commit -m 'deploy'
 # git add dist && git commit -m "Initial dist subtree commit"
 
