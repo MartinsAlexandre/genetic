@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # abort on errors
-set -e
+# set -e
 
 # build
 # npm run build
@@ -15,7 +15,7 @@ vue-cli-service build
 # echo 'www.example.com' > CNAME
 
 git init
-git add -A
+git add dist
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
