@@ -14,12 +14,13 @@ vue-cli-service build
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git init
-git add dist
-git commit -m 'deploy'
+# git init
+# git add -A
+# git commit -m 'deploy'
+git add dist && git commit -m "Initial dist subtree commit"
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:MartinsAlexandre/<MartinsAlexandre>.github.io.git master
+git push -f git@github.com:martinsalexandre/martinsalexandre.github.io.git master
 
 # if you are deploying to https://MartinsAlexandre.github.io/genetic
 # git push -f git@github.com:MartinsAlexandre/genetic.git master:gh-pages
