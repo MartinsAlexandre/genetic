@@ -1,5 +1,7 @@
 module.exports = {
-  publicPath: '/laboGenetic/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/genetic/'
+    : '/',
   transpileDependencies: [
     'vuetify'
   ]
