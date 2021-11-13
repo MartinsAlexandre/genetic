@@ -23,6 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:martinsalexandre/martinsalexandre.github.io.git master
 
 # if you are deploying to https://MartinsAlexandre.github.io/genetic
-git push -f git@github.com:MartinsAlexandre/genetic.git main
+git push
 
 cd -
